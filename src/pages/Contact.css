@@ -1,0 +1,13 @@
+.contact h1 {
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+
+.contact p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-body);
+  margin: 0 0 14px;
+}

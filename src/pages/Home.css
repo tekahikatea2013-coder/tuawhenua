@@ -1,0 +1,17 @@
+.home-intro {
+  max-width: 640px;
+}
+
+.home-intro h1 {
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+
+.home-intro p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-body);
+  margin: 0 0 16px;
+}

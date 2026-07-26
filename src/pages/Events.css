@@ -1,0 +1,24 @@
+.events h1 {
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+  font-size: 28px;
+  margin: 0 0 24px;
+}
+
+.event-item {
+  border-bottom: 1px solid var(--color-border);
+  padding: 14px 0;
+}
+
+.event-item h3 {
+  margin: 0 0 4px;
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+  font-size: 16px;
+}
+
+.event-item p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--color-body);
+}

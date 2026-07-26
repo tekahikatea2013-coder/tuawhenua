@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #0F5C4B;
+  --color-primary-hover: #0A473A;
+  --color-secondary: #2F7A61;
+  --color-accent: #A65A2B;
+  --color-highlight: #D3A73C;
+
+  --color-bg: #F5F2EA;
+  --color-surface: #FFFFFF;
+  --color-bg-secondary: #E6E2D7;
+  --color-border: #C8C3B8;
+
+  --color-heading: #1E1E1E;
+  --color-body: #545454;
+
+  --font-heading: Georgia, serif;
+  --font-body: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-body);
+  font-family: var(--font-body);
+  margin: 0;
+}

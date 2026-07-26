@@ -1,0 +1,49 @@
+/* src/components/Header.css */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 32px;
+  background: var(--color-primary);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-title {
+  color: var(--color-surface);
+  font-family: var(--font-heading);
+  font-size: 20px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-group {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-group a {
+  color: var(--color-surface);
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-group a:hover,
+.nav-group a.active {
+  border-bottom-color: var(--color-highlight);
+}
+
+.nav-divider {
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.3);
+}
