@@ -1,9 +1,8 @@
 /* src/components/Header.css */
 .site-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 18px 32px;
+  padding: 28px 32px;
   background: var(--color-primary);
   position: sticky;
   top: 0;
@@ -13,7 +12,8 @@
 .header-title {
   color: var(--color-surface);
   font-family: var(--font-heading);
-  font-size: 20px;
+  font-weight:700;
+  font-size: 24px;
 }
 
 .header-nav {
@@ -31,7 +31,8 @@
 .nav-group a {
   color: var(--color-surface);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 17px;
+  font-weight:700;
   letter-spacing: 0.03em;
   padding-bottom: 4px;
   border-bottom: 2px solid transparent;
@@ -43,7 +44,17 @@
 }
 
 .nav-divider {
-  width: 1px;
-  height: 20px;
-  background: rgba(255, 255, 255, 0.3);
+  flex: 1;
+  height: 50px;
+  margin: 0 20px;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.nav-divider-2 {
+  flex: 1;
+  height: 32px;
+  margin: 0 20px;
+  background: var(--color-primary);
 }

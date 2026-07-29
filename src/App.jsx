@@ -13,6 +13,7 @@ import kereru2 from './assets/kereru/kereru2.png'
 import kereru3 from './assets/kereru/kereru3.png'
 import Slideshow from'./components/Slideshow.jsx'
 
+
 const imageKereru = [kereru1, kereru2, kereru3]
 
 function App() {
